@@ -18,8 +18,9 @@ class ApiConfig {
   static const area = 'string';
   static const routId = 'string';
 
-  static const connectTimeout = Duration(seconds: 60);
-  static const receiveTimeout = Duration(seconds: 60);
+  static const connectTimeout = Duration(minutes: 5);
+  static const receiveTimeout = Duration(minutes: 5);
+  static const sendTimeout = Duration(minutes: 5);
 }
 
 enum LoadTestEndpoint {
